@@ -13,24 +13,50 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <script src="./script.js" defer></script>
+
 </head>
 <body>
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
+  <main>
+    <div class="container">
+      <div class="main-pic"><img src="./images/drawers.jpg" alt="Drawers"></div>
+      <div class="description">
+        <h1>Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home</h1>
+        <p>Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.</p>
+      </div>
+      <div class="profile">        
+        <div class="socials">
+          <span>SHARE</span>
+          <div class="icons">
+            <span><img src="./images/icon-facebook.svg" alt=""></span>
+            <span><img src="./images/icon-twitter.svg" alt=""></span>
+            <span><img src="./images/icon-pinterest.svg" alt=""></span>
+          </div>      
+          <button class="share clicked" data-button-on><img src="./images/icon-share-clicked.svg" alt=""></button>
+        </div>
+        <div class="profile-pic"><img src="./images/avatar-michelle.jpg" alt=""></div>
+        <div class="contact">
+          <span class="name">Michelle Appleton</span>
+          <span class="date">28 Jun 2020</span>
+        </div>
+        <button class="share" data-button-off><img src="./images/icon-share.svg" alt=""></button>
+      </div>
+    </div>
+    </div>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
 </body>
 </html>
